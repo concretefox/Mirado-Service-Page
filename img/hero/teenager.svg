@@ -1,0 +1,23 @@
+<svg id="_teenager" data-name=" teenager" xmlns="http://www.w3.org/2000/svg" width="270.5" height="259" viewBox="0 0 541 518">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8ec63e;
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        fill: #00497f;
+        opacity: 0.4;
+      }
+
+      .cls-3 {
+        fill: #bf0a46;
+        opacity: 0.85;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="457" cy="325" r="84"/>
+  <circle id="Ellipse_11_copy_2" data-name="Ellipse 11 copy 2" class="cls-2" cx="107.5" cy="55.5" r="55.5"/>
+  <circle class="cls-3" cx="244.5" cy="273.5" r="244.5"/>
+</svg>

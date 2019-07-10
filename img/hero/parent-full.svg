@@ -1,0 +1,23 @@
+<svg id="parent" xmlns="http://www.w3.org/2000/svg" width="275" height="249" viewBox="0 0 550 498">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b91849;
+        opacity: 0.4;
+      }
+
+      .cls-2 {
+        fill: #8ec63e;
+        opacity: 0.5;
+      }
+
+      .cls-3 {
+        fill: #00497f;
+        opacity: 0.9;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_11_copy" data-name="Ellipse 11 copy" class="cls-1" cx="84" cy="294" r="84"/>
+  <circle id="Ellipse_11_copy_3" data-name="Ellipse 11 copy 3" class="cls-2" cx="218.5" cy="55.5" r="55.5"/>
+  <circle id="Ellipse_5_copy" data-name="Ellipse 5 copy" class="cls-3" cx="305.5" cy="253.5" r="244.5"/>
+</svg>

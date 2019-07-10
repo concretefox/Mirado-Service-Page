@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700italic');
+
+/* Reset */
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body {
+	font-family: 'Roboto', Courier, monospace;
+	font-size: 12px;
+	margin: 0, 0, 0 , 0;
+	text-align: center;
+}
+
+h1,h2,h3{
+font-family: 'Roboto', Courier, monospace;
+}
+
+h4,h5,h6 {
+font-family: 'Roboto', Courier, monospace;
+}
+
+ul{
+	text-align: left;
+	display: inline;
+	margin: 0;
+	padding: 15px 4px 17px 0;
+	list-style: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+/* style for the individual menu items */
+ul li{
+	font: 12px/18px;
+	font-weight: bold;
+	display: inline-block;
+	margin-right: -4px;
+	padding: 15px 20px;
+	background: #fff;
+	transition: all 0.2s;
+	cursor: pointer;
+}
+
+ul li:hover{
+	background: #555;
+	color: #fff;
+}
+
+/* style for the children of the main menu items (the dropdown menu) */
+ul li ul{
+	padding: 0;
+	position: absolute;
+	top: 75px;
+	margin-left: -20px;
+	width: 150px;
+	box-shadow: none;
+	opacity: 0;
+	transition: opacity 0.2s;
+	display: none;
+}
+
+ul li ul li{
+	background: #555;
+	display: block;
+	color: #fff;
+	text-shadow: 0 -1px 0 #000;
+	cursor: pointer;
+}
+
+ul li ul li:hover{
+	background: #666;
+}
+
+ul li:hover ul{
+ /* this reveals the dropdown menu on hover */
+ display: block;
+ opacity: 1;
+}
+
+/* Style for "header" */
+header {
+	width: 1200px;
+	height: 91px;
+	background-color:lightgray;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Responsive Container for hero */
+.container-fluid-hero-section {
+	background-color: black;
+	background-image: url(/assets/images/hero/hero_bg_image.png);
+	background-repeat: no-repeat;
+	background-size:contain; /* This makes it responsive */
+	height:600px;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+/* hero-shapes responsive container*/
+.container-fluid.hero-shapes {
+	margin: 0px;
+	padding: 0px;
+	width:auto;
+	display: flex;
+	flex-direction: column;
+	
+} 
+
+.container-grid {
+
+	display:flex;
+	grid-template-columns: 1100px; 
+	grid-template-rows: 1100px; 
+}
+
+.hero-flex{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 500px;
+	background: url(/assets/images/hero/hero_bg_image.png) no-repeat;
+	} 
+
+/* Style for "teenager shape" */
+.teen-circle {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url(/assets/images/hero/parent-full.svg) no-repeat;
+	width: 300px;
+	height: 300px;
+	border-radius: 100%;
+
+}
+
+/* Style for "tennager text" */
+.hero-subtitle-teen {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	z-index: 2;
+	color:white;
+}
+
+.teen-text {
+
+	font-size: 24px;
+}
+
+
+/* Style for "parent shape" */
+.parent-circle {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: url(/assets/images/hero/parent-full.svg) no-repeat;
+	width: 300px;
+	height: 300px;
+	border-radius: 100%;
+}
+
+/* Style for "parnet text" */
+.hero-subtitle-parent {
+	margin: 0;
+	padding: 35px;
+	position: absolute;
+	z-index: 2;
+	color:white;
+	
+}
+
+/*////////////////////////////////////////////////////////////////////////////////*
+
+
+/* Remember px are fixed and require @media to be responsive, 
+use FR instead when using CSS grid */
+
+
+
+/* Style for "how we help" */
+
+.container-fluid.help-section-wrapper{
+	background-repeat: no-repeat;
+	background-size:contain; /* This makes it responsive */
+	background-position:center;
+	height: 200px;
+	width:auto;
+	margin: 0px;
+	padding: 0px;
+	background-color: green;
+}
+
+.help-image {
+	background-image: url(/assets/images/how-we-can-help/how-we-can-help-bg.png);
+	background-color: pink;
+	background-repeat:cover no-repeat;
+	background-size:contain; /* This makes it responsive */
+	height:200px;
+	margin: 0px;
+	padding: 0px;
+	display: inline-;
+	position:; 
+	width: 100%;
+
+/* Style for "info section 1" */
+#info-one{
+	width:auto;
+	height: 672px;
+	background-color: gold;
+}
+
+/* Style for "info section 2" */
+#info-two{
+	width:auto;
+	height: 672px;
+	background-color:green;
+}
+
+
+/* Style for "about" */
+#about {
+	width:auto;
+	height: 1028px;
+	background-color: yellow;
+}
+
+
+/* Style for "news" */
+#news {
+	width: auto;
+	height: 786px;
+	background-color: beige;
+}
+
+/* Style for "contact" */
+#contact{
+	width: auto;
+	height: 600px;
+	background-color: lightblue;
+	background-repeat: no-repeat;
+	background-size:contain; /* This makes it responsive */
+	background-position:center;
+	width:auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+.contact-image{
+	position: relative;      
+}
+
+.contact-form {
+	position: absolute;   
+	top: 17%;                                            
+	left:0%;
+	right:0%;
+	bottom:0%; 
+}
+
+.contact-boxes {
+	background-color: rgba(245,245,245, 0.1);
+}
+
+
+/* Style for "map" */
+#map{
+	width: 1200px;
+	height: 554px;
+	background-color: beige;
+}
+
+
+
+
+* Media queries START ---------------------------------------------------------------------------------------------------------- ----------- *
+
+
+* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+/* Styles */
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 480px) {
+
+/* Styles */
+
+
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+/* Styles */
+}
+
+
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+
+
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1000px) {
+/* Styles */
+
+
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+
+
+* Media queries END---------------------------------------------------------------------------------------------------------- ----------- *
+
+
